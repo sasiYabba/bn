@@ -8,7 +8,8 @@ try:
     from multiprocessing.pool import ThreadPool
     
     
-    except importError:
+
+except ImportError:
     	    
     	    
     	     os.system("pip2 install requests")
